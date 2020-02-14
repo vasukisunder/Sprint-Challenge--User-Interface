@@ -71,6 +71,68 @@ p {
     margin: 0 auto;
 }
 
+.headerTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0 4% 0;
+
+
+}
+
+.headerTop nav{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    
+}
+
+nav a{
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 0;
+
+}
+
+.boxes #box1{
+    background-color: teal;
+}
+
+.boxes #box2{
+    background-color: gold;
+}
+.boxes #box3{
+    background-color: cadetblue;
+    
+}
+.boxes #box4{
+    background-color: coral;
+}
+.boxes #box5{
+    background-color: crimson;
+}
+.boxes #box6{
+    background-color: forestgreen;
+}
+.boxes #box7{
+    background-color: darkorchid;
+}
+.boxes #box8{
+    background-color: hotpink;
+}
+.boxes #box9{
+    background-color: indigo;
+}
+.boxes #box10{
+    background-color: dodgerblue;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,15 +141,58 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about-top{
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.about-top div {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.middle-content{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.about-middle .about-box{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0;
+    border-bottom: 1px dashed black;
+    
+}
+
+.about-middle h2{
+    padding-top: 3%;
+}
+
+.about-middle p{
+    padding-bottom: 2%;
+}
+
+.about-middle .learn{
+	border: 2px solid black;
+	text-align: center;
+padding: 2% 3%;
+width: 35%;
+background-color: white;
+border-radius: 7px;
+margin-top: 3%;
 }
 
 .middle-content h2 {
@@ -110,6 +215,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.about-bottom{
+    padding: 4% 0;
 }
 
 .bottom-content {
